@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+
+
+*{
+    font-family: Michroma, serif;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Header {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)), url(../Images/gora_les_temnyj_141603_1920x1080.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1px;
+    padding-left: 10%;
+    padding-right: 13%;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 9px 30px;
+    padding-top: 32px;
+}
+nav ul li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #8f8c8c;
+}
+ nav ul li a:hover {
+  color: #727070;
+ }
+
+ .logo {
+    color: #7c7b7b;
+ }
+  button{
+    border: none;
+    background-color: #7c7b7b;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: #b2adad;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+  }
+   button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+   }
+   .section{
+     padding: 70px 20% 60px;
+   }
+
+   .Home {
+    text-align: center;
+    padding-top: 230px;
+    color: #9f9c9c;
+   }
